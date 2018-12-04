@@ -1,0 +1,60 @@
+/* a:nth-child(1)  {
+    text-decoration: none;
+    color:red
+}
+a:hover::before{
+    content:"note " ;
+}
+
+a:hover::after{
+    content:"ends " ;
+} */
+
+/* p~a {
+    color:green
+} */
+
+/* a[class~='table']{
+    background:yellow
+}
+
+*{
+    background:red
+} */
+div {
+    border: 1px solid black;
+    width:33%
+}
+
+#mainDiv {
+    box-sizing: border-box;
+
+    height: 900px;
+    width:40%;
+    margin-left: auto;
+    margin-right: auto
+}
+
+/* #secondDiv {
+    left:10px;
+    top:10px
+} */
+
+#firstDiv {
+    box-sizing: border-box;
+  float: left;
+}
+#secondDiv {
+    box-sizing: border-box;
+    float: left;
+    width: 34%
+  }
+#thirdDiv {
+    box-sizing: border-box;
+    float: left;
+}
+#fourthDiv {
+    width:20%;
+    clear: both;
+
+}
